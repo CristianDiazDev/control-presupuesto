@@ -14,6 +14,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['react-circular-progressbar']
-    }
+    },
+    assetsInclude: ['react-circular-progressbar/dist/styles.css']
   }
 })
